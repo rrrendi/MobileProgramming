@@ -45,7 +45,7 @@ fun KartuIdentitasMahasiswa(){
             shape = RoundedCornerShape(16.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 8.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color(0xFF0F3460)
+                containerColor = Color(0x00FF3460)
             )
         ) {
             Column(
@@ -64,7 +64,7 @@ fun KartuIdentitasMahasiswa(){
                             brush = Brush.linearGradient(
                                 colors = listOf(
                                     Color(0xFF00D9FF),
-                                    Color(0xFF7B2FF7)
+                                    Color(0xFFFFCC33)
                                 )
                             ),
                             shape = RoundedCornerShape(12.dp)
@@ -78,17 +78,11 @@ fun KartuIdentitasMahasiswa(){
                     text = "KARTU MAHASISWA",
                     fontSize = 20.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color(0xFF00D9FF),
+                    color = Color(0xFF006400),
                     letterSpacing = 2.sp
                 )
 
-                Divider(
-                    modifier = Modifier
-                        .width(100.dp)
-                        .padding(vertical = 12.dp),
-                    thickness = 1.dp,
-                    color = Color(0xFF00D9FF).copy(alpha = 0.5f)
-                )
+                Spacer(modifier = Modifier.height(16.dp))
 
                 Column(
                     verticalArrangement = Arrangement.spacedBy(12.dp),
