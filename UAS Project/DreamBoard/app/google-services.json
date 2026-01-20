@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "720274219264",
+    "project_id": "dreamboard-dcff3",
+    "storage_bucket": "dreamboard-dcff3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720274219264:android:3271f9be22c9638f0493e5",
+        "android_client_info": {
+          "package_name": "com.app.dreamboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720274219264-m2q636ma3pas4r0g9ivfkrj7lkouvo7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.dreamboard",
+            "certificate_hash": "490c44a5bfcf1b1dffe0c877392757848d8f7a1b"
+          }
+        },
+        {
+          "client_id": "720274219264-77a97v6ohqdrbopr2599de7pobpnot8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPTHioG-JZ66TtpK-ptaVN81Ki6Wz3Rqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720274219264-77a97v6ohqdrbopr2599de7pobpnot8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
